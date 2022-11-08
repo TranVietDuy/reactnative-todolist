@@ -15,9 +15,9 @@ This project is built with React Native with user friendly expereience and it is
 
 ## Features
 
-- Add new a task with title and description
+- Add a new task with title and description
 - User is able to to delete a task from task list
 - Data is stored, user can access data again
-- Show list of to do list which have been save
+- Show list of todos which have been saved
 
 
