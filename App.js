@@ -1,5 +1,5 @@
 import { StatusBar } from "expo-status-bar"
-import { FlatList, Image, ScrollView, View } from "react-native"
+import { FlatList, Image,Keyboard, ScrollView, View } from "react-native"
 import AsyncStorage from "@react-native-async-storage/async-storage"
 
 import styles from "./App.components.style"
@@ -28,6 +28,7 @@ export default function App() {
             setTaskTitle("")
             setTaskDesc("")
         }
+        Keyboard.dismiss()
     }
     const handleDeleteTask = (index) => {
         const newTaskList = [...taskList]
