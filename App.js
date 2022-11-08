@@ -77,7 +77,6 @@ export default function App() {
                     ))}
 
 				</ScrollView> */}
-                <View style={styles.taskList}>
                 <FlatList
                     data={taskList}
                     renderItem={({ item, index }) => (
@@ -88,8 +87,6 @@ export default function App() {
                         />
                     )}
                 />
-
-                </View>
 			</View>
 			<Form 
                 taskTitle={taskTitle}
